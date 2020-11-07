@@ -1,0 +1,340 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+.body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+.title_box{
+	height: 400px;
+	background:url(../img/mainbg.png);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	text-align: center;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}	
+
+.title_box_title{
+	font-size: 48px;
+	color: white;
+	padding-bottom: 40px;
+ }
+	
+.title_box_subtitle{
+	font-size: 36px;	
+	color: white;
+}
+
+
+.contents{
+	display: flex;
+	
+}
+.contents_image{
+	width: 50%;
+	margin-left: 100px;
+	margin-top: 10px	;
+}
+.contents_name{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 10px;
+}
+.yellow{
+	color: #ffd61a;
+	text-align: center;
+	margin-top : 120px;
+	margin-bottom: 24px;
+}
+.slide_img{
+	width: 100%;
+        
+    
+
+}
+.setsumei{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+	
+
+	
+
+.black{
+	font-size: 24px;
+	text-align: center;
+	color: #222222;
+	margin-top: 64px;
+	}
+.yoko1{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}	
+.yoko1_img{
+	width: 50%;
+	text-align: start;
+	margin-right: 48px;
+}
+.yoko1_text{
+	width: 50%;
+	text-align: start;
+}	
+.yoko1_title{
+	font-size: 24px;
+	color: #222222;
+	margin-bottom: 40px;
+}
+.yoko2{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}	
+.yoko2_img{
+	width: 50%;
+	text-align: start;
+	margin-right: 48px;
+}
+.yoko2_text{
+	width: 50%;
+	text-align: start;
+}	
+.yoko2_title{
+	font-size: 24px;
+	color: #222222;
+	margin-bottom: 40px;
+}
+.yoko3{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}	
+.yoko3_img{
+	width: 50%;
+	text-align: start;
+	margin-right: 48px;
+}
+.yoko3_text{
+	width: 50%;
+	text-align: start;
+}	
+.yoko3_title{
+	font-size: 24px;
+	color: #222222;
+	margin-bottom: 40px;
+}
+.yellow2{
+	color: #ffd61a;
+	text-align: center;
+	margin-top : 64px;
+}
+.news{
+	text-align: center;
+	margin-bottom: 64px;
+}
+.pizza{
+display: flex;
+justify-content: space-around;
+}
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+  text-align: center;
+}
+.button_wrapper{
+	text-align: center;
+	width: 300px auto;
+	height: 60px;
+	margin-top: 56px;
+	margin-bottom: 48px;
+}
+
+
+.map{
+	width: 100%;
+}
+.annai{
+	width: 300px;
+	margin: 0 auto ;
+	
+}
+.clearfix{
+	margin-top: 64px;
+	position: relative	;
+	text-align: left;
+	;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.g{
+	float: left;
+	width: 300px;
+	margin-left: 250px;					
+}
+.dd{
+	margin: left 80pxS;
+}
+.contact{
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.contact_form{
+	width: 500px;
+	 margin: 0 auto;	
+	 
+	
+}
+
+
+.contact_subtitle{
+	margin-top: 30px ;
+	margin-bottom: 100px;
+}
+.caution{
+	margin-top: 32px;
+	margin-bottom: 80px;
+}
+.name{
+	width: 400px;
+	height: 40px;
+	font-size: 20px;
+	border: solid 3px pink;
+
+}
+textarea{
+	width: 400px;
+	height: 300px;
+	font-size: 20px;
+	border: solid 3px pink;	
+	
+}
+.button {
+  display       : inline-block;
+  border-radius : 35%;          /* 角丸       */
+  font-size     : 17pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 13px 19px;   /* 余白       */
+  background    : #ff7f7f;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #ff7f7f;    /* 枠の指定 */
+  margin-bottom: 50px	;	
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ff7f7f;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+.btn--gray,
+a.btn--gray {
+  color: #fff;
+  background-color: #707070;
+  
+}
+.btn--gray:hover,
+a.btn--gray:hover {
+  color: #fff;
+  background:black;
+  /* text-align: center; */
+}
+.button_wrapper2{
+	/* text-align: center; */
+	width: 100px auto;
+	margin-right: 100px;
+	/* height: 100px; */
+	/* margin-top: 56px; */
+	/* margin-bottom: 48px; */
+	text-align: end;
+}
+
+
+
+footer{
+	font-size: 18px;
+	/* padding-top: 32	px; */
+	color: white;
+	width: cover	;
+	background-color:#707070;
+
+	height: 100px;
+	
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	text-align: center;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
